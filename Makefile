@@ -5,7 +5,7 @@
 #  read the documentation online.
 #
 all :
-	./BUILD
+	./BUILD.SH
 
 purify:
 	(cd Daemon/sun4; make purify)

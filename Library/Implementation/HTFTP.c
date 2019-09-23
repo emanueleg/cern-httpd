@@ -65,6 +65,7 @@
 
 /* Implementation dependent include files */
 #include "tcp.h"
+#include <time.h>
 
 /* Library include files */
 #include "HTParse.h"

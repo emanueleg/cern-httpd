@@ -18,6 +18,7 @@
 #include "HTSUtils.h"
 #include "tcp.h"
 #include "HTConfig.h"
+#include <time.h>
 
 #if defined(Mips) || (defined(VMS) && !defined(DECC))
 PRIVATE char * wkdays[7] = {

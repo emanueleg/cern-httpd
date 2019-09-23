@@ -18,7 +18,7 @@ UNAME=""
 if [ -s /usr/bin/uname ]; then		UNAME=`/usr/bin/uname`; fi
 if [ -s /bin/uname ]; then 		UNAME=`/bin/uname`; fi
 if [ -s /usr/apollo/bin ]; then 	UNAME=`ver sys5.3 /bin/uname`; fi
-if [ -s $UNAME == "" ]; then
+if [ "$UNAME" = "" ]; then
     if [ -r /NextApps ]; then
         hostinfo | grep I386
         if [ $stat == 0 ]; then
