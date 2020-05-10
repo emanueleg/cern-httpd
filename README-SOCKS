@@ -64,7 +64,7 @@ changes made to it for SOCKS.  After unpacking the distribution:
 
  1. cd ./WWW
     
- 2. Edit  the  file  `BUILD', to set values for the two variables at
+ 2. Edit  the  file  `BUILD.SH', to set values for the two variables at
     the top:
 
         SOCKSLIB        set this to point to the location of
@@ -75,7 +75,7 @@ changes made to it for SOCKS.  After unpacking the distribution:
         SOCKS_FLAGS     set this to "-DSOCKS" to enable the
                         SOCKS code
 
- 3. Type `./BUILD'    
+ 3. Type `./BUILD.SH'    
 
 
     Everything  should  now  build  for  you.  To use your SOCKSized

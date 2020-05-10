@@ -68,7 +68,6 @@ WOBJS = HTDaemonNR.o WAISGate.o ParseWSRC.o $(LIBWWW)
 TWOBJS = test.o WAISGate.o  $(LIBWWW)
 
 DISTRIBUTION =	$(WWW)/ICE \
-		$(WWW)/BUILD \
 		$(WWW)/BUILD.SH \
 		$(WWW)/Makefile \
 		$(WWW)/README \
