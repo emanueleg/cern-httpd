@@ -4,11 +4,10 @@
 #  When you have done BUILD you will have www so you will be able to
 #  read the documentation online.
 #
+.DEFAULT_GOAL := all
+
 all :
 	./BUILD.SH
-
-purify:
-	(cd Daemon/sun4; make purify)
 
 clean:
 	rm -f *[~#] */*[~#] */*/*[~#]
