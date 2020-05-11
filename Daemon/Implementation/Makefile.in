@@ -47,12 +47,12 @@ PURIFY = purify -logfile=~/purify-output -cache-dir=~/purify-cache
 
 # Conversion rules
 .html.h:
-	-$(CHMOD) +w $@
-	$(BINDIR)/www -w90 -na -p -to text/x-c $< > $@
-	-$(CHMOD) -w $@
+#	-$(CHMOD) +w $@
+#	$(BINDIR)/www -w90 -na -p -to text/x-c $< > $@
+#	-$(CHMOD) -w $@
 
 .html.txt:
-	$(BINDIR)/www -n -p66 $< > $@
+#	$(BINDIR)/www -n -p66 $< > $@
 
 .c.o:
 	$(CC) $(CFLAGS) $(CPPFLAGS) -o $@ -c $<

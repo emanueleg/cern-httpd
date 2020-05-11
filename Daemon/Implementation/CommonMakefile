@@ -145,7 +145,7 @@ SOURCES = $CFILES $HFILES
 .SUFFIXES: .h .html
 .html.h:
 #	- chmod +w $*.h
-	www -w90 -na -to text/x-c $*.html > $*.h
+#	www -w90 -na -to text/x-c $*.html > $*.h
 #	chmod -w $*.h
 
 # This is now done by cat in WWW/All/Implementation/Makefile
